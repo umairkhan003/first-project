@@ -1,0 +1,261 @@
+body{
+    background-color: #ffffff;
+}
+
+#logo{
+    width: 40px;
+    border-radius: 200%; 
+}
+
+
+#carouselExampleRide{
+    
+    margin: 0 auto;
+    margin-bottom: 90px;
+    margin-top: 30px;  
+}
+
+.carousel-caption{
+    
+    color: black;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: -70px;
+}
+
+#yellow1{
+    background-color: yellow;
+    border-radius: 50px;
+    border: 0.5px solid black ;
+    padding: 1px 12px;
+    width: 15em;
+    font-weight: bold;
+    
+}
+#yellow{
+    background-color: yellow;
+    border-radius: 50px;
+    border: 0.5px solid black ;
+    padding: 1px 12px;
+    width: 17em;
+    font-weight: bold;
+    
+}
+.price{
+    color:#0AAD0A;
+}
+#free{
+    font-size: 50px;
+}
+#show{
+    background-color: #001E2B;
+    color: #ffff;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#Popular{
+    margin-left: 80px;
+}
+
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card:hover{
+    border: 2px solid #215b01;
+}
+
+.card1{
+    background-color: #ffff;
+    margin: 1%;
+    padding: 0;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 1px solid rgb(109, 108, 108);
+    width: 18%;
+    
+}
+.card1:hover{
+
+    border: 2px solid #215b01;
+}
+.title1{
+    background-color: #ffff;
+    margin-left: 25%;
+    padding: 2% 5%;
+}
+
+
+.card{
+    margin: 0 auto;
+    margin-top: 2%;
+
+    
+}
+
+
+#free1{
+    margin : 1 auto;    
+    font-size: 30px;
+}
+#show1{
+    background-color: #001E2B;
+    color: #ffff;
+    padding: 2px;
+    border-radius: 10px;
+    margin-bottom: -10;
+}
+
+/*  */
+
+.off{
+    background-image: url(./images/grocery-banner.png);
+   
+    background-position: center;
+    background-size:cover;
+    border-radius: 20px;
+    width: 50%;
+    height: 15em
+  
+}
+.off1{
+    background-image: url(./images/grocery-banner-2.jpg);
+
+    background-position: center;
+    background-size:cover;
+    border-radius: 20px;
+    width: 50%;
+    height: 15em
+  
+}
+.get{
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+/* From Uiverse.io by G4b413l */ 
+.card {
+    position: relative;
+    width: 11.875em;
+    height: 16.5em;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5em;
+    padding-bottom: 3.4em;
+  }
+  
+  .card::after {
+    content: "Add to Cart";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: #00AC7C;
+    color: #fff;
+    height: 2.7em;
+    width: 100%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+  }
+  
+  .card .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 1.875em;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.625em;
+    color: #000;
+  }
+  
+  .card:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .card:active {
+    transform: scale(0.98);
+  }
+  
+  .card:active::after {
+    content: "Added !";
+    height: 3.125em;
+  }
+  
+  .text {
+    max-width: 55px;
+  }
+  
+  .image {
+    background: rgb(241, 241, 241);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+  /* footer */
+footer{
+    margin-top: 10%;
+    font-size: small;
+    background-color: #f3fdfa;
+    border-top: 1px solid black;
+    margin-bottom: 40px;
+}
+  li a{
+    color: black;
+    text-decoration: none;
+    margin-top: 2px;
+  }
+  li a:hover{
+    color:#00AC7C;
+
+  }
+
+.partners{
+    margin: 0 auto;
+    border-top: 1px solid #012118;
+    border-bottom: 1px solid #012118;
+    display: flex;
+    width: 90%;
+    padding: 2%;
+}
+
+#partner{
+    display: flex;
+    margin-left: 40px;
+    size: 20px;
+    
+}
+#pay{
+    margin: 0 auto;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-right: 10%;
+}
+.app{
+    margin: 0 auto;
+    display: flex;
+    margin-left: 30%;
+    size: 20px;
+    
+}
